@@ -15,6 +15,12 @@ const config: Config = {
       },
       colors: {
         text_primary: "#58D196",
+        green_400: "#64F4AC",
+        green_500: "#07AC4F",
+        green_700: "#09934E",
+      },
+      height: {
+        custom: "32rem",
       },
     },
   },
