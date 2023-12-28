@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         text_primary: "#58D196",
+        text_gray_100: "#97979F",
         green_400: "#64F4AC",
         green_500: "#07AC4F",
         green_700: "#09934E",

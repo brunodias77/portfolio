@@ -4,7 +4,7 @@ import WelcomeSection from './sections/introduction';
 
 export default function Home() {
   return (
-    <main className="">
+    <main className=" min-h-screen">
       <Header />
       <WelcomeSection />
     </main>
