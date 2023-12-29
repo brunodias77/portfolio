@@ -23,9 +23,9 @@ const Header = () => {
 
                 <nav>
                     <ul className="flex align-center justify-between text-text_gray_100 text-xs font-light">
-                        <li className="flex items-center justify-center"><AiFillGithub size={20} color="white" /> <span className="ml-2">Github</span></li>
-                        <li className="flex items-center justify-center"><AiFillLinkedin size={20} color="white" /> <span className="ml-2">Linkedin</span></li>
-                        <li className="flex items-center justify-center"><AiFillInstagram size={20} color="white" /> <span className="ml-2">Instagram</span></li>
+                        <li className="flex items-center justify-center"><AiFillGithub size={20} color="white" /> <span className="ml-1">Github</span></li>
+                        <li className="flex items-center justify-center"><AiFillLinkedin size={20} color="white" /> <span className="ml-1">Linkedin</span></li>
+                        <li className="flex items-center justify-center"><AiFillInstagram size={20} color="white" /> <span className="ml-1">Instagram</span></li>
 
                     </ul>
                 </nav>
