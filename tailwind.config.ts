@@ -19,6 +19,7 @@ const config: Config = {
         green_400: "#64F4AC",
         green_500: "#07AC4F",
         green_700: "#09934E",
+        background_primary: "#25262A",
       },
       height: {
         custom: "32rem",
