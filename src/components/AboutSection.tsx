@@ -1,11 +1,12 @@
 import Image from "next/image";
+import FotoAbout from "../../public/foto_about.jpeg";
 
 
 const AboutSection = () => {
     return (
-        <section className="bg-background_primary mx-auto">
-            <div>
-                {/* <Image /> */}
+        <section className="bg-background_primary mx-auto text-white w-screen'">
+            <div className="container flex items-center justify-between gap-10">
+                <Image src={FotoAbout} height={200} width={200} alt="Ilustracao de um programdor" className="rounded-2xl" />
                 <div>
                     <h2>About Me</h2>
                     <p>
@@ -19,3 +20,6 @@ const AboutSection = () => {
     );
 }
 export default AboutSection;
+
+
+//crie um personagem pixar masculino de 25 anos, pele branca,olhos escuros, cabelo preto raspado do lado, barba curta, oculos, e um programador e esta usando um macbook
