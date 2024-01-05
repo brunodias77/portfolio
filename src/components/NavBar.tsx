@@ -32,7 +32,7 @@ const NavBar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <nav className="mx-auto top-0 left-0 right-0 bg-opacity-100">
-            <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-7 py-2">
+            <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto px-7 py-1">
                 <Link href={"/"}
                     className="text-2xl md:text-5xl flex items-center justify-center text-white font-semibold">
                     <Image src={Logo} alt="Logo Bruno Dias" height={60} width={60} />

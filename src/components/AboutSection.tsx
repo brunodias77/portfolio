@@ -1,10 +1,10 @@
 import Image from "next/image";
-import FotoAbout from "../../public/foto_about.jpeg";
+import FotoAbout from "../../public/aboutFoto.svg";
 
 
 const AboutSection = () => {
     return (
-        <section className="bg-background_primary mx-auto text-white w-screen'">
+        <section className="bg-background_primary mx-auto text-white w-screen md:w-screen">
             <div className="container flex items-center justify-between gap-10">
                 <Image src={FotoAbout} height={200} width={200} alt="Ilustracao de um programdor" className="rounded-2xl" />
                 <div>
