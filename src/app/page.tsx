@@ -3,6 +3,7 @@ import WelcomeSection from './sections/introduction';
 import AboutSection from "@/components/AboutSection";
 import NavBar from '@/components/NavBar';
 import { useRouter } from 'next/router';
+import Skills from "@/components/Skills";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar />
       <WelcomeSection />
       <AboutSection />
+      <Skills />
     </main>
   )
 }
