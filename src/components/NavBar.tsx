@@ -34,9 +34,10 @@ const NavBar = () => {
         <nav className="mx-auto top-0 left-0 right-0 bg-opacity-100">
             <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto px-7 py-1">
                 <Link href={"/"}
-                    className="text-2xl md:text-5xl flex items-center justify-center text-white font-semibold">
+                    className=" flex items-center justify-center text-white">
                     <Image src={Logo} alt="Logo Bruno Dias" height={60} width={60} />
-                    <span className="font-black text-xl">Bruno Dias</span>
+                    {/* <span className="font-black text-xl">Bruno Dias</span> */}
+                    <div className=" text-white"><span className="font-bold text-xl">Bruno</span><span className="text-green_400 font-bold text-sm">Dias</span> </div>
                 </Link>
 
 

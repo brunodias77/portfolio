@@ -10,7 +10,7 @@ const Skills = () => {
             <div className="container mx-auto flex flex-col items-center justify-center">
                 <h2 className="text-3xl text-center text-white font-black">My Skills</h2>
                 <span className="text-white mt-2"> Technologies I’ve been working with recently</span>
-                <div className="flex items-center opacity-25 mt-10 gap-4">
+                <div className="flex items-center opacity-20 mt-10 gap-4">
                     <IoLogoHtml5 size={65} color="#97979F" />
                     <IoLogoCss3 size={65} color="#97979F" />
                     <IoLogoJavascript size={65} color="#97979F" />
