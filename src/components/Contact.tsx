@@ -52,15 +52,15 @@ const Contact = () => {
                     <form className="flex flex-col">
                         <div className="mb-6">
                             <label htmlFor="email" className="text-green_400 block mb-2 text-sm font-medium">Your email</label>
-                            <input type="email" id="email" required className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" placeholder="example@gmail.com" name="email" />
+                            <input type="email" id="email" required className="bg-background_primary border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" placeholder="example@gmail.com" name="email" />
                         </div>
                         <div className="mb-6">
                             <label htmlFor="subject" className="text-green_400 block text-sm mb-2 font-medium">Subject</label>
-                            <input type="text" id="subject" required className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" placeholder="Just saying hi" name="subject" />
+                            <input type="text" id="subject" required className="bg-background_primary border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" placeholder="Just saying hi" name="subject" />
                         </div>
                         <div className="mb-6">
                             <label htmlFor="message" className="text-green_400 block text-sm mb-2 font-medium">Message</label>
-                            <textarea name="message" id="message" className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" placeholder="Let's talk about..."></textarea>
+                            <textarea name="message" id="message" className="bg-background_primary border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" placeholder="Let's talk about..."></textarea>
                         </div>
                         <button type="submit" className="bg-green_400 text-background_primary hover:bg-primary-600 font-medium py-2.5 px-5 rounded-lg w-full">Send Message</button>
                     </form>
