@@ -1,7 +1,8 @@
 "use client"
 import { useState } from "react";
 import Link from "next/link";
-import Logo from "../../public/logo.svg";
+// import Logo from "../../public/logo.svg";
+import Logo from "../../public/D3.svg";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
@@ -33,9 +34,8 @@ const NavBar = () => {
     return (
         <nav className="mx-auto top-0 left-0 right-0 bg-opacity-100">
             <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto px-7 py-1">
-                <Link href={"/"}
-                    className=" flex items-center justify-center text-white">
-                    <Image src={Logo} alt="Logo Bruno Dias" height={60} width={60} />
+                <Link href={"/"} className=" flex items-center justify-center text-white gap-3">
+                    <Image src={Logo} alt="Logo Bruno Dias" height={30} width={30} />
                     {/* <span className="font-black text-xl">Bruno Dias</span> */}
                     <div className=" text-white"><span className="font-bold text-xl">Bruno</span><span className="text-green_400 font-bold text-sm">Dias</span> </div>
                 </Link>

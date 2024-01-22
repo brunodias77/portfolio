@@ -13,7 +13,7 @@ const WelcomeSection = () => {
                     <span className="text-7xl text-white font-black ">Developer</span>
                     <span className="text-sm text-text_gray_100 mt-4 leading-7">I am a developer based in Brazil, fascinated by technology, who enjoys developing websites and web applications.</span>
                     <div id="buttons" className="">
-                        <a href="FotoBruno.svg" download>
+                        <a href="currículoBrunoDias.pdf" download>
                             <button className="bg-green_400 hover:brightness-75	rounded-md px-5 py-2 mt-5 text-black ">Download cv</button>
                         </a>
                         <button className="border rounded-md px-5 py-2 mt-5 text-white ml-5">Contact</button>
