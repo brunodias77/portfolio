@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import Skills from "@/components/Skills";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import Experience from "@/components/Experience";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <WelcomeSection />
       <AboutSection />
       <Skills />
+      <Experience />
       <Contact />
       <Footer />
     </main>
