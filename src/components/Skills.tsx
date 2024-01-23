@@ -9,8 +9,9 @@ const Skills = () => {
         <section className=" w-screen bg-background_primary px-4 py-10">
             <div className="container mx-auto flex flex-col items-center justify-center ">
                 <h2 className="text-3xl text-center text-white font-black">My Skills</h2>
-                <span className="text-white mt-2"> Technologies I’ve been working with recently</span>
-                <div className="flex items-center opacity-20 mt-10 gap-6 animate-scrolling">
+                <hr className="w-6 h-1 mx-auto my-4 bg-green_400 border-0 rounded"></hr>
+                <span className="text-text_gray_100 mt-2"> Technologies I’ve been working with recently</span>
+                <div className="flex items-center opacity-20 mt-10 gap-6 ">
                     <IoLogoHtml5 size={60} color="#97979F" />
                     <IoLogoCss3 size={60} color="#97979F" />
                     <IoLogoJavascript size={60} color="#97979F" />
@@ -33,3 +34,4 @@ const Skills = () => {
 }
 
 export default Skills;
+//animate-scrolling

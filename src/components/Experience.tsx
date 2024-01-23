@@ -4,10 +4,11 @@ import Image from "next/image";
 
 const Experience = () => {
     return (
-        <section className="w-screen bg-background_primary px-4 py-10">
-            <div className="container mx-auto flex flex-col items-center justify-center">
-                <h2 className="text-3xl text-center text-white font-black">My Experience</h2>
-                <div className="flex items-center justify-between w-full mt-10">
+        <section className="w-screen bg-background_secondary px-4 py-10">
+            <h2 className="text-3xl text-center text-white font-black">My Experience</h2>
+            <hr className="w-6 h-1 mx-auto my-4 bg-green_400 border-0 rounded"></hr>
+            <div className="container mx-auto flex flex-col items-center rounded py-4 px-8 mt-10 justify-center  ">
+                <div className="flex items-center justify-between w-full ">
                     <div className="flex items-center justify-center gap-10">
                         <Image src={LogoCasaSonho} alt="Logo da empresa casa e sonho ltda" height={100} width={100} />
                         <span className="text-white font-bold text-xl	">junior front end programmer - Casa e Sonho</span>
