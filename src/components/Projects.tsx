@@ -11,12 +11,8 @@ const Projects = () => {
                     <hr className="w-6 h-1 mx-auto my-4 bg-green_400 border-0 rounded"></hr>
                 </div>
                 {/* <div className="flex flex-shrink items-centrer justify-center gap-5"> */}
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
+                {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-4"> */}
+                <div className="">
                     <CardProjects />
                 </div>
 
