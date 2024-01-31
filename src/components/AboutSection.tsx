@@ -5,8 +5,8 @@ import FotoAbout from "../../public/aboutFoto.svg";
 const AboutSection = () => {
     return (
         <section className="bg-background_primary text-white w-screen md:w-screen px-4 py-10">
-            <div className="container mx-auto grid grid-cols-2 gap-6 items-center">
-                <Image src={FotoAbout} height={300} width={300} alt="Ilustracao de um programador" className="rounded-2xl" />
+            <div className="container mx-auto grid grid-cols-2 gap-6 items-center justify-center">
+                <Image src={FotoAbout} height={300} width={300} alt="Ilustracao de um programador" className="rounded-2xl justify-self-center" />
                 <div className="">
                     <h2 className=" font-black text-3xl text-center">About Me</h2>
                     <hr className="w-6 h-1 mx-auto my-4 bg-green_400 border-0 rounded"></hr>
