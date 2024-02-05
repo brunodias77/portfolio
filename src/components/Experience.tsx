@@ -10,7 +10,7 @@ const Experience = () => {
             <div className="container mx-auto flex flex-col items-center rounded py-4 px-8 mt-10 justify-center  ">
                 <div className="flex items-center justify-between w-full ">
                     <div className="flex items-center justify-center gap-10">
-                        <Image src={LogoCasaSonho} alt="Logo da empresa casa e sonho ltda" height={100} width={100} />
+                        <Image src={LogoCasaSonho} alt="Logo da empresa casa e sonho ltda" height={150} width={150} />
                         <span className="text-white font-bold text-xl	">junior front end programmer - Casa e Sonho</span>
                     </div>
                     <span className="text-green_400">Jan 2022 - Dec 2023</span>
