@@ -12,7 +12,7 @@ const Projects = () => {
                 </div>
                 {/* <div className="flex flex-shrink items-centrer justify-center gap-5"> */}
                 {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-4"> */}
-                <div className=" grid grid-cols-2 gap-7 bg-red-200 ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     <CardProjects />
                     <CardProjects />
                 </div>

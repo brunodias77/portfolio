@@ -6,9 +6,29 @@ import { AiFillGithub } from "react-icons/ai";
 
 const CardProjects = () => {
     return (
-        <div className="bg-white h-1/2">
+        <div className="bg-white group cursor-pointer hover:scale-105 rounded-xl space-y-4 text-center p-3 transition hover:p-3 hover:shadow">
+            {/* Images and Actions */}
+            <div className="aspect-square rounded-t-md bg-gray-100 relative ">
+                <Image
+                    src={Projeto1}
+                    alt="Image"
+                    className="aspect-square object-cover rounded-t-md"
+                    height={300} width={300}
+                />
+                <div className="opacity-0 group-hover:opacity-100 transition absolute w-full px-6 bottom-5 ">
+                    <div className="flex gap-x-6 justify-center">
+                    </div>
+                </div>
+            </div>
+            {/* Description */}
             <div>
-                <span>cards</span>
+                <p className="text-sm text-gray_300">
+                    Let me ask
+                </p>
+            </div>
+            {/* Price */}
+            <div className="flex items-center justify-center">
+                {/* <Currency value={data?.price} /> */}
             </div>
         </div>
         // <div
