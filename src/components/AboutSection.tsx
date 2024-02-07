@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FotoAbout from "../../public/aboutFoto.svg";
+import Skills from "./Skills";
 
 
 const AboutSection = () => {
