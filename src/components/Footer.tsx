@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiOutlineTwitter } from 
 
 const Footer = () => {
     return (
-        <footer className="w-screen bg-background_primary px-4 py-10">
+        <footer className=" bg-background_primary px-4 py-10">
             <div className="container mx-auto text-xs">
                 <div className="flex items-center justify-between">
                     <div className=" text-white"><span className="font-bold text-xl">Bruno</span><span className="text-green_400 font-bold">Dias</span> </div>

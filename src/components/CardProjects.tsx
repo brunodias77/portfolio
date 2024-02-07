@@ -12,13 +12,14 @@ const CardProjects = () => {
                 <Image
                     src={Projeto1}
                     alt="Image"
-                    className="aspect-square object-cover rounded-t-md"
-                    height={300} width={300}
+                    className="aspect-square  rounded-t-md"
+                    height={350} width={350}
                 />
-                <div className="opacity-0 group-hover:opacity-100 transition absolute w-full px-6 bottom-5 ">
+                {/* <div className="opacity-0 group-hover:opacity-100 transition absolute w-full px-6 bottom-5 ">
                     <div className="flex gap-x-6 justify-center">
+                        bla
                     </div>
-                </div>
+                </div> */}
             </div>
             {/* Description */}
             <div>
