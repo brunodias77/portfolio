@@ -17,8 +17,8 @@ export default function Home() {
       {/* <Header /> */}
       <NavBar />
       <WelcomeSection />
-      {/* <AboutSection />
-      <Skills />
+      <AboutSection />
+      {/*<Skills />
       <Experience />
       <Projects />
       <Contact />*/}
