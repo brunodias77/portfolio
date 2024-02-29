@@ -1,10 +1,11 @@
 import Image from "next/image";
 import FotoAbout from "../../public/aboutFoto.svg";
+import Skills from "./Skills";
 
 
 const AboutSection = () => {
     return (
-        <section className="bg-background_primary text-white w-screen md:w-screen px-4 py-14">
+        <section className="bg-background_primary text-white  px-4 py-14">
             <div className="container mx-auto grid grid-cols-2 gap-6 items-center justify-center">
                 <Image src={FotoAbout} height={300} width={300} alt="Ilustracao de um programador" className="rounded-2xl justify-self-center" />
                 <div className="">
